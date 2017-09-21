@@ -1,14 +1,37 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>BarcodeApp</title>
-  <base href="/">
+<!DOCTYPE html>
+<html>
 
+<head>
+  <title>Barcode App</title>
+  <base href="/">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.css">
+  <script src="https://code.angularjs.org/tools/system.js"></script>
+
+  <script>
+    System.config({
+      defaultJSExtensions: true,
+      map: {
+        'ng2-bs3-modal': 'node_modules/ng2-bs3-modal'
+      }
+    });
+
+  </script>
+
+  <style>
+    body {
+      color: #369;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+  </style>
 </head>
+
 <body>
-  <app-root></app-root>
+  <my-app>Loading AppComponent content here ...</my-app>
 </body>
+
 </html>
